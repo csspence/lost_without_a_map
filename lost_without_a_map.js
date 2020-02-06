@@ -8,6 +8,10 @@ For example:
 For the beginner, try to use the map method - it comes in very handy quite a lot so is a good one to know.
 */
 
-function maps(x){
-
+const maps = (x) => {
+  let newX = [];
+  for(let i = 0; i < x.length; i++) {
+    newX[i] = x[i] * 2;
+  }
+  return newX;
 }
